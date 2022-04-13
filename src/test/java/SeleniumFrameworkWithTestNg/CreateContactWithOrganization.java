@@ -17,6 +17,7 @@ public class CreateContactWithOrganization extends BaseClass{
 	@Test
 	public void CreateContactWithOrg() throws Throwable{
 		//Click on  Organazation 
+		//Added this line
 		HomePage home= new HomePage(driver);
 		home.Organationlink();
 		
