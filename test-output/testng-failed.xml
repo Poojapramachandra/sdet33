@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="GenericUtility.RetrListenersImplementionClass"/>
+    <listener class-name="GenericUtility.ListenersImplementaionClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="SeleniumFrameworkWithTestNg.CreateProductTest">
+        <methods>
+          <include name="CloseparallelExecution"/>
+          <include name="LogoutFromApplication"/>
+          <include name="ParallelExecution"/>
+          <include name="CloseBrowser"/>
+          <include name="CloseDatabaseConnection"/>
+          <include name="LoginToApplication"/>
+          <include name="CreatePro"/>
+          <include name="OpenDataBase"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- SeleniumFrameworkWithTestNg.CreateProductTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
